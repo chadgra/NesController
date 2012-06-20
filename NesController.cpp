@@ -38,6 +38,7 @@ void setupNesController(uint8_t clock, uint8_t latch, uint8_t data_out)
 
     digitalWrite(clock, HIGH);
     digitalWrite(latch, LOW);
+    digitalWrite(data_out, HIGH);
 }
 
 void setupNesController1()
